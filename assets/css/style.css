@@ -7,5 +7,93 @@ html {
 }
 
 body {
-    font-family: Poppins, sans-serif;
+    font-family: Sora, sans-serif;
+}
+
+/* ==== Common ==== */
+.main-content {
+    width: 1170px;
+    margin: auto;
+}
+
+.btn {
+    min-width: 104px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border-radius: 30px;
+    background: #2e80ce;
+    border: none;
+    line-height: 44px;
+}
+
+a {
+    text-decoration: none;
+}
+/* ==== navbar ==== */
+.header {
+    padding-top: 22px;
+    background: #10375c;
+}
+
+.wrap-nav {
+    position: static;
+    top: -22px;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        padding: 8px 0;
+}
+
+.navbar__list {
+    display: flex;
+    /* margin-left: auto; */
+}
+
+.list-item {
+    color: #c9d2da;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 0 21px;
+}
+
+.list-item:hover,
+.action__link:hover {
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.active {
+    position: relative;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.active::before {
+    position: absolute;
+    content: " ";
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+    bottom: 7px;
+    left: 5px;
+}
+
+.action__link {
+    color: #c9d2da;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.navbar__action__btn {
+    border-radius: 22px;
+    margin-left: 28px;
+}
+
+.navbar__action__btn:hover {
+    opacity: 0.8;
 }
