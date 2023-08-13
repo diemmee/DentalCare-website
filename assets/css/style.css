@@ -156,23 +156,23 @@ a {
     font-weight: 400;
 }
 
-.hero__imgages {
+.hero__images {
     display: flex;
     align-items: center;
 }
 
-.hero__imgages__1,
-.hero__imgages__2 {
+.hero__images__1,
+.hero__images__2 {
     object-fit: cover;
     border-radius: 6px;
 }
 
-.hero__imgages__1 {
+.hero__images__1 {
     width: 330px;
     height: 540px;
 }
 
-.hero__imgages__2 {
+.hero__images__2 {
     width: 210px;
     height: 410px;
 }
@@ -437,16 +437,59 @@ a {
     line-height: 1.85; /* 185.714% */
 }
 
-.chervon {
+.chevron {
     margin-top: 38px;
     text-align: center;
     margin-left: 50%;
 }
 
-.chervon:hover {
+.chevron:hover {
     opacity: 0.8;
 }
 
 .card-img-3 {
     object-position: 100% 20%;
+}
+
+/* ==== cta ==== */
+.cta {
+    border-radius: 4px;
+    margin: 180px 0 85px;
+}
+
+.cta__body {
+    display: flex;
+    position: relative;
+    align-content: center;
+    height: 427px;
+    background: #2e80ce;
+}
+
+.cta__image {
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.cta__info {
+    margin: 76px 69px 75px 514px;
+    width: 100%;
+}
+
+.cta__heading {
+    width: 489px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.cta__desc {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+    margin: 18px 0 38px;
+    word-break: break-all;
 }

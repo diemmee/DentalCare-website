@@ -13,7 +13,7 @@
             rel="stylesheet"
         />
 
-        <title>HTMLCSS Project 04</title>
+        <title>HTML CSS Project 04</title>
     </head>
     <body>
         <header class="header" id="home">
@@ -41,7 +41,7 @@
                                 <a class="list-item" href="#about">About</a>
                             </li>
                             <li>
-                                <a class="list-item" href="#doctor">Doctors</a>
+                                <a class="list-item" href="#doctors">Doctors</a>
                             </li>
                         </ul>
                         <div class="navbar__action">
@@ -74,16 +74,16 @@
                                         >
                                     </div>
                                 </div>
-                                <div class="hero__imgages">
+                                <div class="hero__images">
                                     <img
                                         src="./assets/img/hero-img-1.jpg"
                                         alt=""
-                                        class="hero__imgages__1"
+                                        class="hero__images__1"
                                     />
                                     <img
                                         src="./assets/img/hero-img-2.jpg"
                                         alt=""
-                                        class="hero__imgages__2"
+                                        class="hero__images__2"
                                     />
                                 </div>
                             </div>
@@ -246,7 +246,7 @@
             </section>
 
             <!-- about -->
-            <section class="about">
+            <section id="about" class="about">
                 <div class="main-content">
                     <div class="about__body">
                         <div class="about__body__images">
@@ -279,7 +279,7 @@
             </section>
 
             <!-- doctor -->
-            <section class="doctors">
+            <section id="doctors" class="doctors">
                 <div class="main-content">
                     <div class="doctors__body">
                         <div class="doctors__body__header">
@@ -358,10 +358,32 @@
                         </div>
                     </div>
                     <img
-                        class="chervon"
+                        class="chevron"
                         src="./assets/img/chervon.svg"
                         alt=""
                     />
+                </div>
+            </section>
+
+            <!-- cta -->
+            <section class="cta">
+                <div class="main-content">
+                    <div class="cta__body">
+                        <img src="./assets/img/cta-img.svg" class="cta__image"></img>
+                        <div class="cta__info">
+                            <h2 style="--line-clamp: 2;"" class="cta__heading line-clamp">Take back your smile with dentures</h2>
+                            <p style="--line-clamp: 2;" class="cta__desc line-clamp">
+                                If you're missing multiple teeth due to decay, injury,
+                                or the natural aging process, dentures might be 
+                                the perfect solution.
+                            </p>
+                            <div class="cta__info__images">
+                                <a href="#!">
+                                    <img src="./assets/img/google-play.svg" alt="" class="image-1">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
