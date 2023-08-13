@@ -16,7 +16,7 @@
         <title>HTML CSS Project 04</title>
     </head>
     <body>
-        <header class="header" id="home">
+        <header class="header header-fixed" id="home">
             <div class="wrap-nav">
                 <div class="main-content">
                     <nav class="navbar">
@@ -52,48 +52,50 @@
                         </div>
                     </nav>
 
-                    <!-- Hero -->
-                    <section class="hero">
-                        <div class="main-content">
-                            <div class="hero__body">
-                                <div class="body__info">
-                                    <h1 class="info__header line-clamp">
-                                        Exceptional dental care for all ages.
-                                    </h1>
-                                    <p class="info__desc line-clamp">
-                                        Exceptional dental care for all ages.
-                                        Your great smile begins with a great
-                                        dentist.
-                                    </p>
-                                    <div class="info__cta">
-                                        <button class="btn info__cta__btn">
-                                            Book Online
-                                        </button>
-                                        <span class="info__phone-number"
-                                            >or call (123) 456-7890</span
-                                        >
-                                    </div>
-                                </div>
-                                <div class="hero__images">
-                                    <img
-                                        src="./assets/img/hero-img-1.jpg"
-                                        alt=""
-                                        class="hero__images__1"
-                                    />
-                                    <img
-                                        src="./assets/img/hero-img-2.jpg"
-                                        alt=""
-                                        class="hero__images__2"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    
                 </div>
             </div>
         </header>
 
         <main>
+        <!-- Hero -->
+        <section class="hero hero-fixed">
+            <div class="main-content">
+                <div class="hero__body">
+                    <div class="body__info">
+                        <h1 class="info__header line-clamp">
+                            Exceptional dental care for all ages.
+                        </h1>
+                        <p class="info__desc line-clamp">
+                            Exceptional dental care for all ages.
+                            Your great smile begins with a great
+                            dentist.
+                        </p>
+                        <div class="info__cta">
+                            <button class="btn info__cta__btn">
+                                Book Online
+                            </button>
+                            <span class="info__phone-number"
+                                >or call (123) 456-7890</span
+                            >
+                        </div>
+                    </div>
+                    <div class="hero__images">
+                        <img
+                            src="./assets/img/hero-img-1.jpg"
+                            alt=""
+                            class="hero__images__1"
+                        />
+                        <img
+                            src="./assets/img/hero-img-2.jpg"
+                            alt=""
+                            class="hero__images__2"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
             <!-- Services -->
             <section id="services" class="services">
                 <div class="main-content">
@@ -262,7 +264,7 @@
                             />
                         </div>
                         <div class="about__body__info line-clamp">
-                            <h2 class="about__info__heading">
+                            <h2 style="--line-clamp: 2;" class="about__info__heading line-clamp">
                                 Take back your smile with shine.
                             </h2>
                             <p class="about__info__desc line-clamp">
@@ -421,7 +423,7 @@
             <section class="contact">
                 <div class="main-content">
                     <div class="contact__body">
-                        <h1 style="--line-clamp: 2;" class="contact__heading line-clamp">Always welcoming new patients</h1>
+                        <h1 class="contact__heading">Always welcoming new patients</h1>
                         <p style="--line-clamp: 2;" class="contact__desc line-clamp">Take control of your dental health and get the personalized care you deserve. Call (541) 772-8846 to  schedule</p>
                         <button class="btn contact__btn">Appointment</button>
                     </div>
