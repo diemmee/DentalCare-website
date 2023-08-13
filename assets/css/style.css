@@ -247,3 +247,80 @@ a {
     font-size: 1.8rem;
     line-height: 60px;
 }
+
+/* ==== guide ==== */
+
+.guide {
+    background: #f6fbff;
+    padding: 100px 0;
+}
+
+/* .guide__header {
+    padding-top: 100px;
+} */
+
+.header__heading {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.header__desc {
+    width: 468px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66; /* 166.667% */
+    margin-top: 18px;
+}
+
+.guide__body {
+    display: flex;
+    margin-top: 86px;
+    gap: 62px;
+}
+
+.body__card,
+.body__card--active {
+    padding: 42px 43px;
+    border-radius: 4px;
+    outline: 15px solid #eaf6ff;
+    width: 29%;
+
+}
+
+.body__card--active {
+    outline: 15px solid #2e80ce;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.card__name {
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-top: 18px;
+}
+
+.card__desc {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+    margin: 28px 0 18px;
+}
+
+.card_link--active{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #2e80ce;
+
+}
+
+.card_link {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
